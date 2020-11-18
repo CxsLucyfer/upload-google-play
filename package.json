@@ -1,6 +1,6 @@
 {
   "name": "upload-google-play",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "private": true,
   "description": "Upload an Android release (.apk or .aab) to Google Play Console",
   "main": "lib/main.js",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/r0adkll/upload-google-play.git"
+    "url": "git+https://github.com/devussy/upload-google-play.git"
   },
   "keywords": [
     "actions",
     "node",
     "setup"
   ],
-  "author": "r0adkll",
+  "author": "devussy",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.2",
-    "@actions/exec": "^1.0.3",
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.4",
     "googleapis": "^45.0.0"
   },
   "devDependencies": {
